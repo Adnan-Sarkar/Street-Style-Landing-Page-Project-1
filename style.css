@@ -1,0 +1,212 @@
+:root {
+    --black : #000000;
+    --black2 : #0B0C0E;
+    --grey : #515151;
+    --white : #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar Section */
+
+section[aria-label="navbar"] {
+    margin: 80px 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container div:nth-child(2) {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container div .list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-container div .list .list-item {
+    cursor: pointer;
+    margin: 0 30px;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+    color: var(--black);
+    transition: 300ms ease-in-out;
+}
+
+.navbar-container div .list .list-item::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--black);
+    opacity: 0;
+    transition: 300ms ease-in-out;
+}
+
+.navbar-container div .list .list-item:hover {
+    font-weight: 600;
+}
+
+.navbar-container div .list .list-item:hover::after {
+    opacity: 1;
+}
+
+.navbar-container .button-group {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container .button-group .search-icon svg{
+    width: 24px;
+}
+
+.navbar-container .button-group .nav-button {
+    padding: 5px 40px;
+    background-color: transparent;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: var(--grey);
+    font-size: 22px;
+}
+
+
+/* Hero Banner Section */
+
+section[aria-label="banner"] {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container {
+    position: relative;
+    display: flex;
+}
+
+.hero-container-right {
+    width: 70%;
+}
+
+.hero-container .square, .star1, .star2, .globe {
+    position: absolute;
+}
+
+.hero-container .square {
+    bottom: -35px;
+    left: 160px;
+    z-index: -1;
+}
+
+.hero-container .star1 {
+    top: 5px;
+    right: 90px;
+}
+
+.hero-container .star2 {
+    width: 50px;
+    bottom: 0;
+    left: 760px;
+}
+
+.hero-container .star2 img {
+    width: 100%;
+}
+
+.hero-container .globe {
+    width: 80px;
+    top: -40px;
+    left: 53%;
+}
+
+.hero-container .globe img {
+    width: 100%;
+}
+
+[alt="person-hero-iamge"] {
+    width: 90%;
+}
+
+.hero-container-right {
+    text-align: center;
+}
+
+.hero-container-right h1 {
+    font-size: 90px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    margin: 100px 0 50px 0;
+}
+
+.hero-container-right p {
+    font-family: "Poppins", sans-serif;
+    color: var(--grey);
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.hero-container-right div .button-email {
+    padding: 2px 40px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    color: var(--grey);
+    font-size: 20px;
+    font-family: "Orbitron", sans-serif;
+    margin-right: 10px;
+}
+
+.hero-container .hero-container-right div .button-join {
+    padding: 3px 8px;
+    background-color: var(--black2);
+    cursor: pointer;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 20px;
+    font-family: "Orbitron", sans-serif;
+    border: none;
+}
+
+.hero-container .hero-container-right div h4 {
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--grey);
+    margin-bottom: 10px;
+}
+
+.hero-container .hero-container-right div .icons span {
+    cursor: pointer;
+    margin: 0 10px;
+}
