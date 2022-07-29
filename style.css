@@ -104,8 +104,6 @@ section[aria-label="navbar"] {
 section[aria-label="banner"] {
     height: 80vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .hero-container {
@@ -122,8 +120,8 @@ section[aria-label="banner"] {
 }
 
 .hero-container .square {
-    bottom: -35px;
-    left: 160px;
+    bottom: -90px;
+    left: 135px;
     z-index: -1;
 }
 
@@ -161,7 +159,7 @@ section[aria-label="banner"] {
 }
 
 .hero-container-right h1 {
-    font-size: 90px;
+    font-size: 75px;
     font-family: "Orbitron", sans-serif;
     font-weight: 700;
     margin: 100px 0 50px 0;
