@@ -9,6 +9,8 @@ I'm `Adnan Sarkar`. This is the first assignment in my [Full Stack Javascript](h
 - CSS
 
 ## 🖥 Preview
+`note:` please make sure the preview screen is `1920 x 1080`
+
 [Live Preview](https://street-style-landing-page-project-1.netlify.app/)
 
 ![](Street-Style-Landing-Page.png)
