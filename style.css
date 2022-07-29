@@ -102,7 +102,7 @@ section[aria-label="navbar"] {
 /* Hero Banner Section */
 
 section[aria-label="banner"] {
-    height: 80vh;
+    height: 75vh;
     display: flex;
 }
 
@@ -120,8 +120,8 @@ section[aria-label="banner"] {
 }
 
 .hero-container .square {
-    bottom: -90px;
-    left: 135px;
+    bottom: 55px;
+    left: 133px;
     z-index: -1;
 }
 
@@ -132,8 +132,8 @@ section[aria-label="banner"] {
 
 .hero-container .star2 {
     width: 50px;
-    bottom: 0;
-    left: 760px;
+    bottom: 110px;
+    left: 655px;
 }
 
 .hero-container .star2 img {
@@ -141,7 +141,7 @@ section[aria-label="banner"] {
 }
 
 .hero-container .globe {
-    width: 80px;
+    width: 60px;
     top: -40px;
     left: 53%;
 }
@@ -168,7 +168,7 @@ section[aria-label="banner"] {
 .hero-container-right p {
     font-family: "Poppins", sans-serif;
     color: var(--grey);
-    width: 55%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 100px;
 }
